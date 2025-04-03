@@ -1,1 +1,1 @@
-# Web-Automation-Project
+For my project I decided to use https://jsonplaceholder.typicode.com.I chose JSon because of its difficulty at least it was more difficulty when I first tested it. Its a website made for fetching information.Perfect for API testing. I basically just fetched different pieces of information to prove Testing and coding knowledge. I took a simple route basically the main commands first, then a HTTP request and a test with errors in the CSS and assertion.
