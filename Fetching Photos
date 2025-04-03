@@ -1,0 +1,7 @@
+describe('Testing links', () => {
+  it('passes', () => {
+    cy.visit('https://jsonplaceholder.typicode.com/')
+    cy.get('tbody > :nth-child(4) > :nth-child(1) > a').click()
+    cy.url().should('include', '/photos')
+  })
+})
