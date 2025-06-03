@@ -1,0 +1,7 @@
+describe('API Get', () => {
+  it('GET', () => {
+      cy.request('GET', 'https://restful-booker.herokuapp.com/booking')
+      .then((response) => {
+  expect(response.status).to.eq(200)}); 
+      });
+    });

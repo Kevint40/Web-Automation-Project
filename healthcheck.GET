@@ -1,0 +1,5 @@
+describe('check api', () => {
+  it('passes', () => {
+    cy.request('https://restful-booker.herokuapp.com/ping')
+    .its('status').should('eq',201) })
+})
