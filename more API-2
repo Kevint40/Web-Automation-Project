@@ -1,0 +1,16 @@
+describe('API create', () => {
+  it('Patch', () => {
+    cy.request({
+      method:'PATCH',
+      url:'https://restful-booker.herokuapp.com/booking/762',
+       headers: {
+        Authorization: 'Basic YWRtaW46cGFzc3dvcmQxMjM='       },
+       body:{
+        "firstname": "John",
+        "lastname": "Brown"
+      }
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+    });
+  });
+});
