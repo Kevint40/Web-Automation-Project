@@ -1,4 +1,4 @@
-describe('API create', () => {
+describe('API update', () => {
   it('Patch', () => {
     cy.request({
       method:'PATCH',
