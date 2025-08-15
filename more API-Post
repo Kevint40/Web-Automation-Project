@@ -1,5 +1,5 @@
 describe('API update', () => {
-  it('PUT', () => {
+  it('POST', () => {
 cy.request({
   method: 'POST',
   url: 'https://restful-booker.herokuapp.com/auth', 
